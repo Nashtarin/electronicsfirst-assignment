@@ -1,0 +1,19 @@
+{
+  "name": "electonics-assignment-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "sass": "sass --watch scss/main.scss:style.css",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  
+  "devDependencies": {
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "sass": "^1.66.0"
+  }
+}

@@ -1,0 +1,120 @@
+body{
+ background-color:black;
+
+} 
+
+
+header{
+    height:500px;
+    // display:flex;
+    img{position:absolute;
+        display:inline;
+        height: 50px;
+        width:80px
+    }
+
+   
+    background:{
+        image:url('../images/Screenshot\ 2023-08-19\ at\ 10.10.13\ AM.png');
+        repeat: none;
+    
+     
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    li{ margin-top: 0px;
+        // margin:5px;
+        padding: 7px;
+        color:ghostwhite;
+        font: { 
+        
+        size:x-small;
+        weight: 100;}
+    }
+
+   
+}
+
+
+}
+.product{
+    width:35%;
+    margin:auto;
+   background-color: rgba(94, 91, 91, 0.381);
+   border-radius: 30px;
+   height:20px;
+  
+       
+  
+    
+}
+
+.menubar{
+    background-color: rgba(0, 0, 0, 0.49);
+    margin-bottom: 10px;
+    margin-top:10px;
+    display: flex;
+    justify-content: space-between;
+    color:gainsboro;
+    border:1px solid black;
+    border-radius: 10px;
+}
+.menuitems{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+.menu{
+    background-color:rgba(128, 128, 128, 0.6);
+    width:30%;
+    padding:19px;
+    color:rgb(218, 222, 224);
+    a{
+        font-size:13px
+    }
+    margin-top:5px;
+    height: auto;
+    border:1px solid gray;
+    border-radius: 15px;
+    position:absolute;
+}
+.product-list{
+    list-style-type: none;
+    
+
+    
+    li{
+        color:rgb(195, 163, 227);
+        font:{
+            size:11px;
+            weight:400
+         
+        }
+        padding:auto;
+        margin-right:20px;
+       
+
+    }
+    
+    
+}
+.drarrowmenu{
+    display:flex;
+    
+}
+.dropdown.closed .menu {
+    // height: 0px;
+    display:none
+  }
+
+// .dropdown{
+//     transition: all 0.2s ease-in-out;
+//     overflow: hidden;
+//     margin: 30px;
+//     background: rgb(248, 248, 248);
+//     border: solid 1px rgb(222, 222, 222);
+//     // width: 320px;
+//     cursor: pointer;
+// }
