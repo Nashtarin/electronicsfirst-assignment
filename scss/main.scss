@@ -74,6 +74,11 @@ ul{
     a{
         font-size:13px
     }
+                a:hover {
+                    background-color: rgba(81, 178, 146, 0.606);
+                    border-radius: 11px;
+                    padding: 7px;
+                }
     margin-top:5px;
     height: auto;
     border:1px solid gray;

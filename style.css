@@ -65,6 +65,11 @@ header ul li {
 .menu a {
   font-size: 13px;
 }
+.menu a:hover {
+  background-color: rgba(81, 178, 146, 0.606);
+  border-radius: 11px;
+  padding: 7px;
+}
 
 .product-list {
   list-style-type: none;
