@@ -27,7 +27,7 @@ header ul li {
 }
 
 .product {
-  width: 35%;
+  width: 25%;
   margin: auto;
   background-color: rgba(94, 91, 91, 0.381);
   border-radius: 30px;
@@ -42,7 +42,7 @@ header ul li {
   justify-content: space-between;
   color: gainsboro;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 7% ":?l.,kmj nbv";
 }
 
 .menuitems {
@@ -88,6 +88,57 @@ header ul li {
 
 .dropdown.closed .menu {
   display: none;
+}
+
+.prsearch {
+  display: flex;
+}
+
+#searchBar {
+  display: none;
+}
+#searchBar input {
+  background-color: rgba(128, 128, 128, 0.625);
+  color: whitesmoke;
+  width: 85%;
+}
+
+#searchButton {
+  cursor: pointer;
+}
+#searchButton img {
+  height: 25px;
+}
+
+.hsec {
+  position: relative;
+  width: 100%;
+  /* Adjust the width as needed */
+}
+.hsec h6 {
+  color: azure;
+  margin-right: 10%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.hsec h3 {
+  color: beige;
+  margin-left: 10%;
+}
+
+.psec {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+}
+.psec img {
+  width: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,29 +1,6 @@
 import './style.css'
-// import javascriptLogo from './javascript.svg'
-// import viteLogo from '/vite.svg'
-// import { setupCounter } from './counter.js'
 
-// // document.querySelector('#app').innerHTML = `
-// //   <div>
-// //     <a href="https://vitejs.dev" target="_blank">
-// //       <img src="${viteLogo}" class="logo" alt="Vite logo" />
-// //     </a>
-// //     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-// //       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-// //     </a>
-// //     <h1>Hello Vite!</h1>
-// //     <div class="card">
-// //       <button id="counter" type="button"></button>
-// //     </div>
-// //     <p class="read-the-docs">
-// //       Click on the Vite logo to learn more
-// //     </p>
-// //   </div>
-// // `
-
-// // setupCounter(document.querySelector('#counter'))
-let dropdown = document.querySelector('.dropdown')
- 
+const dropdown = document.querySelector('.dropdown');
 dropdown.addEventListener('click', (e) => {
   if (dropdown.classList.contains('closed')) {
     dropdown.classList.remove('closed')
@@ -31,3 +8,24 @@ dropdown.addEventListener('click', (e) => {
     dropdown.classList.add('closed')    
   }
 })
+
+// console.log(product)
+const searchButton = document.getElementById('searchButton');
+        const closeButton = document.getElementById('closeButton');
+        const searchBar = document.getElementById('searchBar');
+        const navbar = document.getElementById('navbar');
+
+        // Add click event listeners to the buttons
+        searchButton.addEventListener('click', function() {
+            searchBar.style.display = 'block'; // Show the search bar
+            navbar.style.display = 'none'; // Hide the navbar
+        });
+
+        closeButton.addEventListener('click', function() {
+            searchBar.style.display = 'none'; // Hide the search bar
+            navbar.style.display = 'flex'; // Show the navbar
+        });
+   
+
+
+
