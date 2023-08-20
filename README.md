@@ -4,5 +4,6 @@ The live site of the assignment is https://electronicfirst-assignment.netlify.ap
 * I did not use any JS libraries like vue or react and also no css framework like bootstrap or tailwind
 * This site is responsive for mobile,iPad and desktop
 * I used vite to build the site
+* I deployed the site on netlify
 * I hope you will like my creation
 
