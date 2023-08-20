@@ -4,8 +4,7 @@ body {
 
 header {
   height: 500px;
-  background-image: url("../images/Screenshot 2023-08-19 at 10.10.13 AM.png");
-  background-repeat: none;
+  background-image: url("../images/head.png");
 }
 header img {
   position: absolute;
@@ -13,12 +12,13 @@ header img {
   height: 50px;
   width: 80px;
 }
-header ul {
+
+ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
 }
-header ul li {
+ul li {
   margin-top: 0px;
   padding: 7px;
   color: ghostwhite;
