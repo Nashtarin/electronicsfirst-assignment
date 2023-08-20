@@ -1,2 +1,7 @@
 # electronicsfirst-assignment
-The live site of the assignment is https://64e2289902c0936df45d1502--regal-croquembouche-14d516.netlify.app/
+The live site of the assignment is https://electronicfirst-assignment.netlify.app/
+*This site is made with vanilla javascript and scss(vanilla CSS)
+*I did not use any JS libraries like vue or react and also no css framework like bootstrap or tailwind
+* This site is responsive for mobile,iPad and desktop
+* I hope you will like my creation
+
